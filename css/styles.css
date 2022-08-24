@@ -1,0 +1,314 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: 'Fair P';
+    src: url('Fair Prosper.ttf');
+}
+
+
+@font-face {
+    font-family: 'Arthead';
+    src: url('Arthead-Regular\ FREE.otf');
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster\ 1.4.otf');
+}
+
+
+body {
+	margin: 0 auto;
+	
+	
+}
+
+p {
+	margin: 0px;
+}
+
+
+
+
+/* tete de page */
+
+
+
+
+
+header.header {
+	display: flex;
+	align-items: center;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+section.top-page {
+	background: url('../images/Liquid.jpg');
+	background-size: cover;
+	height: 95vh;
+	padding: 25px;
+	
+	
+
+}
+ .big-title {
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	font-family: Arthead;
+	font-weight: 500;
+	margin-top: 25%;
+	
+} 
+
+
+
+.vers-le-bas {
+	width: 100px;
+	display: block;
+	margin: auto;
+	
+}
+
+
+
+
+/* menu de navigation */
+
+
+
+
+nav.nav{
+	display: flex;
+	list-style: none;
+	margin-left: 5%;
+	justify-content: space-between;
+	width: 90%;
+	font-family: Lobster;
+	font-size: 40px;
+
+}
+
+nav.nav li {
+	color: black;
+
+}
+
+
+
+/* mes goûts */
+
+
+
+
+
+.mes-gouts {
+	background-color: #F2EBE4;
+}
+
+
+.section-title {
+	font-size: 70px;
+	font-family: Rounded Elegance;
+	padding: 20px;
+	
+	
+}
+
+h2 {
+	margin: 0;
+}
+
+.mes-films-pref {
+	min-height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px;
+
+}
+
+.film-box {
+	background-size: cover;
+	position:	relative;
+	background-position: center;
+	min-width: 350px;
+	height: 800px;
+	flex: 1;
+}
+
+
+.film-details {
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 20px;
+	font-family: DIN;
+	color: white;	
+}
+
+.film1 {
+	width: auto;
+	height: 600px;
+	padding: 20px;
+	margin-left: 40px;
+	
+	
+}
+
+.film2 {
+	width: auto;
+	height: 600px;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	
+}
+
+.film3 {
+	width: auto;
+	height: 600px;
+	padding: 20px;
+	margin-right: 40px;
+	
+}
+
+
+.film-details1{
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 0px;
+	font-family: DIN;
+	color: white;
+}
+
+
+.titre-mes-films-pref{
+	color: rgb(237, 139, 41);
+	font-size: 50px;
+	font-family: Rounded Elegance;
+	text-align: center;
+	font-weight: 500;
+	
+}
+
+.nomfilm-real-et-date {
+	font-family: Rounded Elegance;
+	padding: 20px;
+	display: block;
+	width: 360px;
+	background-color: #cb6601;
+	font-size: 30px;
+	border-radius:20px;
+	position: static;
+	margin-left: 106px;
+	
+	
+
+}
+
+.nomfilm2-real-et-date {
+	font-family: Rounded Elegance;
+	padding: 20px;
+	display: block;
+	width: 360px;
+	background-color: #cb6601;
+	font-size: 22.5px;
+	border-radius:20px;
+	position: static;
+	margin: auto;
+	margin-top: -145px;
+	
+}
+
+.nomfilm3-real-et-date {
+	font-family: Rounded Elegance;
+	padding: 20px;
+	display: block;
+	width: 360px;
+	background-color: #cb6601;
+	font-size: 30px;
+	border-radius:20px;
+	position: static;
+	margin-left: auto;
+	margin-right: 106px;
+	margin-top: -145px;
+}
+
+
+.filmblock {
+	flex-direction: row;
+	
+	
+}
+
+
+
+
+
+/* Jeux Vidéo */
+
+
+
+
+.img-bio{
+	width: 500px;
+
+}
+
+.img-fir {
+	width: 500px;
+
+}
+
+.img-fab {
+	width: 500px;
+
+}
+
+.img-mc {
+	width: 800px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Mes créations */
+
+
+.mes-creations {
+	background-color: #F2EBE4;
+}
+
+.section-title-mes-creations {
+	font-size: 70px;
+	font-family: Rounded Elegance;
+	padding: 20px;
+}
+
+.MC1 {
+	width: 1000px;
+	height: auto;
+	margin-left: 20%;
+}
