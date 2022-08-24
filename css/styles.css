@@ -19,9 +19,19 @@ html{
     src: url('Lobster\ 1.4.otf');
 }
 
+@font-face {
+    font-family: 'Rounded Elegance';
+    src: url('Rounded_Elegance.ttf');
+}
+
+.vers-le-bas:hover {
+	opacity: 0.3;
+}
+
 
 body {
 	margin: 0 auto;
+	background-color: #F2EBE4;
 	
 	
 }
@@ -51,7 +61,8 @@ a {
 }
 
 a:hover {
-	color: white;
+	color: #F2EBE4;
+	
 }
 
 section.top-page {
@@ -121,7 +132,7 @@ nav.nav li {
 
 .section-title {
 	font-size: 70px;
-	font-family: Rounded Elegance;
+	font-family: Rounded Elegance ;
 	padding: 20px;
 	
 	
@@ -164,6 +175,7 @@ h2 {
 	height: 600px;
 	padding: 20px;
 	margin-left: 40px;
+	border-radius: 40px;
 	
 	
 }
@@ -174,6 +186,7 @@ h2 {
 	padding: 20px;
 	display: block;
 	margin: auto;
+	border-radius: 40px;
 	
 }
 
@@ -182,7 +195,7 @@ h2 {
 	height: 600px;
 	padding: 20px;
 	margin-right: 40px;
-	
+	border-radius: 40px;
 }
 
 
@@ -252,8 +265,6 @@ h2 {
 
 .filmblock {
 	flex-direction: row;
-	
-	
 }
 
 
@@ -264,31 +275,119 @@ h2 {
 
 
 
+.mes-JV-pref-block {
+	flex-direction: row;
+	display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+	background-color: #F2EBE4;
+
+	
+}
+
+
+
 
 .img-bio{
-	width: 500px;
+	width: 600px;
+	padding: 20px;
+	border-radius:40px;
 
+}
+
+.img-bio:hover {
+	width: 610px;
+	opacity: 0.9;
 }
 
 .img-fir {
-	width: 500px;
+	width: 800px;
+	padding: 20px;
+	border-radius:40px;
+}
 
+.img-fir:hover {
+	width: 810px;
+	opacity: 0.9;
 }
 
 .img-fab {
-	width: 500px;
+	width: 600px;
+	padding: 20px;
+	border-radius:40px;
+}
 
+.img-fab:hover {
+	width: 610px;
+	opacity: 0.9;
 }
 
 .img-mc {
 	width: 800px;
+	padding: 20px;
+	border-radius:40px;
 
+}
+.img-mc:hover {
+	width: 810px;
+	opacity: 0.9;
 }
 
 
+.txt-bio-titre {
+	font-family: Rounded Elegance;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 30px;
+}
 
 
+.txt-bio {
+	font-family: Rounded Elegance;
+	font-size: 30px;
+	text-align: center;
+}
 
+
+.txt-fir-titre {
+	font-family: Rounded Elegance;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.txt-fir {
+	font-family: Rounded Elegance;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.txt-fab-titre {
+	font-family: Rounded Elegance;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.txt-fab {
+	font-family: Rounded Elegance;
+	font-size: 30px;
+	text-align: center;
+}
+
+.txt-min-titre {
+	font-family: Rounded Elegance;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 60px;
+} 
+
+.txt-min {
+	font-family: Rounded Elegance;
+	font-size: 30px;
+	text-align: center;
+} 
 
 
 
@@ -305,10 +404,18 @@ h2 {
 	font-size: 70px;
 	font-family: Rounded Elegance;
 	padding: 20px;
+	margin-top: 60px;
 }
 
 .MC1 {
 	width: 1000px;
 	height: auto;
 	margin-left: 20%;
+}
+
+.MC2 {
+	width: 1000px;
+	height: auto;
+	margin-left: 20%;
+	
 }
