@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-	color: #F2EBE4;
+	color :#F2EBE4;
 	
 }
 
@@ -419,3 +419,21 @@ h2 {
 	margin-left: 20%;
 	
 }
+
+
+
+
+
+/* footer */
+
+
+
+footer {
+	display: flex;
+	align-items: center;
+	margin: 20px 100px;
+	justify-content: space-between;
+	font-family: DIN;
+	
+}
+
