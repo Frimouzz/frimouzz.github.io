@@ -1,0 +1,60 @@
+p {
+font-size: 50px;
+color: red;	
+
+}
+
+.title {
+	text-shadow: 5px 5px 5px blue;
+	margin-left: 500px;
+}
+.sg {
+	width:100%;
+	max-height: 30%;
+	z-index: 0;
+	
+}
+body {
+	background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2019/06/cdf5a1a6-42d1-49f1-866d-1cde5d856078/870x489_flyer-recto.jpg");
+	background-size: cover;
+	background-position: auto auto;
+	background-attachement: fixed;
+	
+}
+h1 {
+    color: #0FFF00;
+	text-shadow: 5px 5px 5px #FF00E8;;
+}
+h2 {
+	color: FF00E8;
+	
+}
+a {
+	text-decoration: none;
+	
+}
+a:hover {
+	font-size: 18px;
+}
+.ff {
+	position: absolute;
+	z-index: 1000;
+	left: 20%;
+	transform: rotate(90deg);
+	top: 9%; 
+}
+
+footer {
+	background-image: url("tk-voiture-meme-at-thekairi78.gif");
+	bottom: 0%;
+	position: absolute; 
+	z-index: 5000;
+	display: block;
+	text-align: center;
+	left: 0;
+	width: 100%;
+	background-size: cover;
+	background-position: auto auto;
+	background-attachement: fixed;
+	background-min-height: 200px;
+}
